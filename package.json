@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "Janne Hansen",
   "scripts": {
-    "start": "node index.js"
+    "start": "node hello.js"
   },
   "dependencies": {
     "request": "^2.83.0",
