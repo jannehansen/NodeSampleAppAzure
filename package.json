@@ -1,13 +1,12 @@
 {
   "name": "simplenode",
   "version": "1.0.0",
-  "description": "",
-  "main": "hello.js",
+  "private": true,
+  "license": "MIT",
+  "author": "Janne Hansen",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "request": "^2.83.0",
     "zip-folder": "^1.0.0"
