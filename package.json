@@ -1,14 +1,16 @@
 {
-  "name": "simplenode",
+  "name": "app-service-hello-world",
+  "description": "Simple Hello World Node.js sample for Azure App Service",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "author": "Janne Hansen",
-  "scripts": {
-    "start": "node hello.js"
-  },
   "dependencies": {
     "request": "^2.83.0",
     "zip-folder": "^1.0.0"
+  },
+  "scripts": {
+      "start": "node hello.js"
   }
 }
+

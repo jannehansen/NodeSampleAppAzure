@@ -23,7 +23,7 @@ var kuduApi = 'https://'+myWebAppName+'.scm.azurewebsites.net/api/zip/site/wwwro
 var userName = '$'+myWebAppName;
 
 // Paste the key here to replace the xxxxxxx's!
-var userPWD = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+var userPWD = 'Kjyw9ja0dnj1FybliwB60CeHaLFJg0EZZDAtkDnoEblRx8oueLuW8cgRySdq';
 
 function uploadZip(callback) {
   fs.createReadStream(zipPath).pipe(request.put(kuduApi, {
