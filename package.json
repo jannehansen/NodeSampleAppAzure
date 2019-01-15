@@ -10,7 +10,6 @@
     "zip-folder": "^1.0.0"
   },
   "scripts": {
-      "start": "node hello.js"
+    "start": "node hello.js"
   }
 }
-
